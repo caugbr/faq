@@ -14,7 +14,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('FAQ_PATH', str_replace("\\", "/", dirname(__FILE__)));
+define('FAQ_PATH', str_replace("\\", "/", plugin_dir_path(__FILE__)));
 define('FAQ_URL', str_replace("\\", "/", plugin_dir_url(__FILE__)));
 
 class FAQ {
